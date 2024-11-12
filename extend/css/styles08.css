@@ -1,0 +1,73 @@
+/*
+Name: Ronan Norbury
+Date: 11/12/2024
+File: Extend Your Knowledge
+*/
+
+/* CSS Reset */
+body,
+main,
+table,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style Rules for Body */
+body {
+    background-color: #ffe5dc;
+}
+
+/* Style Rules For Table */
+table {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #fd4d0c;
+    box-shadow: 10px 10px 8px #792101;
+}
+
+caption {
+    font-size: 3em;
+    padding: 2%;
+    margin-top: 2%;
+    color: #a22c02
+}
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+th,
+td {
+    border: 1px solid #a22c02;
+}
+
+th {
+    color: #fff;
+    background-color: #a22c02;
+    border: 1px solid #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #fe9772;
+}
+
+/* Style Rules for Container id */
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Style Rules For Footer */
+footer {
+    font-size: .70em;
+    text-align: center;
+}
